@@ -1,0 +1,28 @@
+{
+  "name": "App",
+  "version": "1.0.0",
+  "description": "App",
+  "main": "app.js",
+  "scripts": {
+    "server": "node app.js",
+    "dev": "nodemon app.js",
+    "client": "npm run start --prefix client"
+  },
+  "keywords": [
+    "mern",
+    "react"
+  ],
+  "author": "Soornbai Bapyev",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
